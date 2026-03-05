@@ -1,0 +1,28 @@
+.list-interest #healthtech-goal{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+}
+
+.list-interest{
+    text-align: left;
+}
+
+.going-viral#making67{
+    color:purple;
+    font-size: 20px;
+}
+
+
+
+ *{
+    font-family: 'Times New Roman', Times, serif;
+    outline: 1px solid gold;
+}
+
+
+#box-zero{
+    padding: 2px;
+    margin-right: -3px;
+    border:3px solid black
+}
+
