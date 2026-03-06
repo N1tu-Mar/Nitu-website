@@ -5,6 +5,7 @@
 
 .list-interest{
     text-align: left;
+
 }
 
 .going-viral#making67{
@@ -16,13 +17,42 @@
 
  *{
     font-family: 'Times New Roman', Times, serif;
-    outline: 1px solid gold;
 }
 
 
 #box-zero{
-    padding: 2px;
-    margin-right: -3px;
-    border:3px solid black
+    padding-left: 50px;
+    padding-right: 60px;;
+    border:3px solid black;
+    height: 180px;
+    flex: 1 1 auto;
+    margin: 0px;
 }
 
+
+.box-one .regret{
+    text-align: center;
+    border: 2px solid black;
+    flex-shrink: 0;
+    flex: 1 1 auto;
+    height: 180px;
+
+}
+
+/* flex is a way to organize the layout in a convenient manner rather than with display's inline or blocks */
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    align-items:center;
+    gap: 50px;
+}
+
+    /* the flex-direction column allows the flexboxes to be arranged vertically */
+
+
+/* flex direction only works if you declare flex as "1 1 auto" in the divs you target */
+
+/* justify content:space-between will align all flex items to main axis */
+/* align items will adjust items vertically to main axis */
+/* gap does the same things as justify content:space-between */
